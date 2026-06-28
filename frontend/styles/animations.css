@@ -1,0 +1,49 @@
+.scanning-line {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(173, 198, 255, 0.5),
+    transparent
+  );
+  width: 100%;
+  position: absolute;
+  top: 0;
+  animation: scan 3s linear infinite;
+}
+@keyframes scan {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+.orbital-rotate {
+  animation: rotate 60s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.float-animation {
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

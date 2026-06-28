@@ -1,0 +1,9 @@
+The user procrastinated.
+
+Rebuild the schedule.
+
+Move unfinished work.
+
+Protect important deadlines.
+
+Return ONLY JSON.
